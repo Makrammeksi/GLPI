@@ -1,0 +1,63 @@
+.my-sm-0:hover {
+    cursor: pointer;
+    background-color: #3CBC8D;
+    color: white;
+  }
+.titleTableTicket{
+  background-color: darkgray;
+}
+.tableTickets{
+  width: 32%;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.ticketTable{
+  border-bottom: groove;
+}
+.Tickets {
+  border-width: 3px;
+  border-bottom-style: ridge;
+}
+.navBar{
+  /* display: flex;
+    justify-content: space-between;
+    justify-items: center; */
+}
+.dropdown-item{
+  position: relative;
+  /* margin-left: 50px */
+
+}
+.dropdown-list{
+  display: none;
+  position: absolute;
+  background-color: rgb(228, 222, 222);
+  /* top: 100px; */
+  left: 0px;
+  width:200px;
+}
+.dropdown-item:hover .dropdown-list{
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 50px */
+
+}
+.dopdown-item{
+  position: relative;
+  margin-left: 50px
+
+}
+.dopdown-item:hover .dropdown-list{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px
+
+}
+.dopdown-item a{
+  margin-left: 50px
+}
+.dropdown-list li{
+  list-style:none;
+  font-size: 16px;
+}
